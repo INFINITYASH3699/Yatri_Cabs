@@ -1,0 +1,37 @@
+.blog1Page {
+  height: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #216900;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contentSection {
+  color: #585858;
+  background-color: #f1f2f5;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    padding: 10px;
+    font-size: 6px;
+  }
+
+  .contentSection {
+    font-size: 6px;
+  }
+}
